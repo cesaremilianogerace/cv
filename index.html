@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Cesar Emiliano Gerace</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
+
+    <script>
+        function personal() {
+            document.getElementById("personal").style.display = "block"
+            document.getElementById("experiencia").style.display = "none"
+            document.getElementById("academica").style.display = "none"
+            document.getElementById("formacion").style.display = "none"
+            document.getElementById("idioma").style.display = "none"
+            document.getElementById("footer").style.display = "block"
+        }
+
+        function experiencia() {
+            document.getElementById("experiencia").style.display = "block"
+            document.getElementById("personal").style.display = "none"
+            document.getElementById("academica").style.display = "none"
+            document.getElementById("formacion").style.display = "none"
+            document.getElementById("idioma").style.display = "none"
+            document.getElementById("footer").style.display = "block"
+        }
+
+        function academica() {
+            document.getElementById("academica").style.display = "block"
+            document.getElementById("experiencia").style.display = "none"
+            document.getElementById("personal").style.display = "none"
+            document.getElementById("formacion").style.display = "none"
+            document.getElementById("idioma").style.display = "none"
+            document.getElementById("footer").style.display = "block"
+        }
+
+        function formacion() {
+            document.getElementById("personal").style.display = "none"
+            document.getElementById("experiencia").style.display = "none"
+            document.getElementById("academica").style.display = "none"
+            document.getElementById("formacion").style.display = "block"
+            document.getElementById("idioma").style.display = "none"
+            document.getElementById("footer").style.display = "block"
+        }
+
+        function idioma() {
+            document.getElementById("personal").style.display = "none"
+            document.getElementById("experiencia").style.display = "none"
+            document.getElementById("academica").style.display = "none"
+            document.getElementById("formacion").style.display = "none"
+            document.getElementById("idioma").style.display = "block"
+            document.getElementById("footer").style.display = "block"
+        }
+
+        function modo() {
+        var element = document.body;
+        element.classList.toggle("oscuro");
+        }
+
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Cesar Emiliano Gerace</h1>
+        <h3>Curriculum Vitae</h3>
+        <nav>
+            <button id="b_personal" style="color:black" onclick="personal()">Información Personal</button>
+            <button id="b_experiencia" onclick="experiencia()">Experiencia Profesional</button>
+            <button id="b_academica" onclick="academica()">Formación Académica</button>
+            <button id="b_formacion" onclick="formacion()">Formación</button>
+            <button id="b_idioma" onclick="idioma()">Idiomas</button>
+            <button id="modo" onclick="modo()">1/0</button>
+        </nav>
+    </header>
+    <main>
+        <div id="personal" style="display: none;">
+            <ul>
+                <li>Fecha de Nacimiento: 07/10/1982</li>
+                <li>Domicilio: Juan Agustín García 1269 - Ituzaingó - Pcia. De Buenos Aires</li>
+                <li>Nacionalidad: Argentino</li>
+                <li>Hijos: 1</li>
+                <li>Celular: 15 5466 9492</li>
+                <li>Correo electrónico: cesaremiliano@gmail.com</li>
+            </ul>
+        </div>
+        <div id="experiencia" style="display: none;">
+            <div class="row" id="cnea">
+                <h4>Comisión Nacional de Energía Atómica - Laboratorio de Calibración de Instrumentos de Medición</h4>
+                <h5>Laboratorio de calibración acreditado N° 37 por el O.A.A. (Organismo Argentino de Acreditación)
+                    según la
+                    Norma
+                    ISO/IEC 17025 para la realización de calibraciones de balanzas e instrumentos dimensionales.</h5>
+                <h6>08-2010 a la actualidad</h6>
+
+                <div class="col-4">
+                    <h5>SUPERVISOR DE LABORATORIO</h5>
+                    <p>Planificación, coordinación y desarrollo de tareas referidas a la calibración. Dictado de
+                        capacitación
+                        interna en temas técnicos referidos a las tareas del Laboratorio. Formación y supervisión del
+                        personal a
+                        cargo.</p>
+                </div>
+
+                <div class="col-4">
+                    <h5>TÉCNICO DE LABORATORIO</h5>
+                    <p>Cálculo de incertidumbre, según Norma IRAM 35050, IRAM 35051, Guía de expresión de la
+                        Incertidumbre.
+                        Desarrollo de métodos para el cálculo de incertidumbre.
+                        Calibración y verificación de instrumentos según norma y procedimientos correspondientes.
+                        Manejo, medición, mantenimiento y calibración de instrumentos de medición de magnitudes
+                        dimensionales,
+                        masa,
+                        temperatura, presión relativa, entre otros.
+                        Desarrollo de los métodos y procedimientos de calibración y uso de instrumental.
+                        Desarrollo de equipamiento y puesta en funcionamiento del mismo.
+                        Identificación del instrumental y de su estado de calibración.</p>
+                </div>
+                <div class="col-4">
+                    <h5>AUDITOR CALIFICADO</h5>
+                    <p>Auditor calificado en Norma ISO 9001 y Norma ISO/IEC 17025.
+                        Realización de auditorías a Sistemas de Calidad en sectores de CNEA.</p>
+                </div>
+            </div>
+            <div class="row" id="oaa">
+                <h4>Organismo Argentino de Acreditación</h4>
+                <h5></h5>
+                <h6>05-2018 a la actualidad</h6>
+                <div class="col-6">
+                    <h5>EXPERTO TÉCNICO</h5>
+                    <p>Organismos de Certificación de Productos, en la especialidad de productos eléctricos, eficiencia
+                        energética
+                        y encendedores.</p>
+                </div>
+                <div class="col-6">
+                    <h5>EVALUADOR TÉCNICO</h5>
+                    <p>Laboratorios de Calibración en la especialidad de dimensional, masa, temperatura, electricidad.
+                    </p>
+                </div>
+            </div>
+
+            <div class="row" id="ces">
+                <h4>CES S.A. Laboratorio de Ensayos de Seguridad Eléctrica</h4>
+                <h5>Laboratorio de ensayo acreditado N° 22 por el O.A.A. (Organismo Argentino de Acreditación),trabaja
+                    según la Norma
+                    ISO/IEC 17025. Se dedica a la realización de ensayos y mediciones para la aprobación de requisitos
+                    de
+                    seguridad
+                    delos aparatos electrodomésticos y similares que se importan y comercializan en Argentina según la
+                    resolución 92/98 de la ex SICyM, seguridad eléctrica de equipos de electromedicina bajo la
+                    supervisión
+                    de ANMAT,
+                    ensayos del tipo voluntario, y eficiencia energética</h5>
+                <h6>09-2004 al 08-2010</h6>
+
+                <div class="col-4">
+                    <h5>RESPONSABLE DE INGENIERIA DE CALIBRACIONES Y ENSAYOS</h5>
+                    <p>Cálculo de incertidumbre, según Norma IRAM 35050, IRAM 35051, Guía de expresión de la
+                        Incertidumbre.
+                        Desarrollo de métodos para el cálculo de incertidumbre.
+                        Desarrollo de Instrucciones de Ensayo.
+                        Capacitación a personal interno en realización de ensayos, mediciones y calibraciones.
+                        Estudio de Normas y factibilidad de implementación.
+                        Desarrollo e implementación de nuevas áreas (Seguridad de Encendedores, Seguridad de Lámparas,
+                        Eficiencia
+                        energética de Lámparas) con la correspondiente selección del instrumental y auditorias.
+                        Desarrollo de protocolos e informes de ensayo. Asistencia técnica sobre mediciones poco usuales.
+                        Supervisión de la ejecución de los ensayos Interlaboratorios.
+                        Desarrollo y supervisión de la construcción de dispositivos normalizados
+                        Revisión de informes de ensayos. Revisión y aprobación de certificados de calibración. Control
+                        de
+                        informes
+                        de calibración externos.
+                        Responsable en auditorias de OAA.
+                        Responsable de compras productivas y no productivas. Provisión de equipamiento e instrumental.
+                        Conocimiento e interpretación de Normas de Calidad y Seguridad Eléctrica, entre otras.
+                        Personal a cargo.</p>
+                </div>
+                <div class="col-4">
+                    <h5>TECNICO EN CALIBRACIONES</h5>
+                    <p>Manejo, medición, mantenimiento y calibración de instrumentos de medición de magnitudes
+                        dimensionales,
+                        eléctricas, temperatura, fuerza, torque, masa, entre otros.
+                        Desarrollo de los métodos, elaboración y actualización de procedimientos de calibración y uso de
+                        instrumental.
+                        Desarrollo de equipamiento y puesta en funcionamiento del mismo.
+                        Calibración y mantenimiento de dispositivos construidos según norma de aplicación.
+                        Identificación del instrumental y de su estado de calibración</p>
+                </div>
+                <div class="col-4">
+                    <h5>TECNICO LABORATORISTA</h5>
+                    <p>Responsable de los laboratorios de Seguridad de Encendedores, Seguridad de Lámparas, Etiquetado
+                        Energético
+                        de Lámparas y Ensayos de Pilas. Realización de ensayos.</p>
+                </div>
+            </div>
+
+
+        </div>
+        <div id="academica" style="display: none;">
+            <div class="row">
+                <div class="col-5" id="secundario">
+                    <h5>Técnico Electrónico</h5>
+                    <p>E.E.T. Nro. 8 de Morón, egresado en 2001</p>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-5" id="universidad">
+                    <h5>Licenciatura en Informática</h5>
+                    <p>Universidad Nacional de Hurlingham, cursando 2do año</p>
+                </div>
+
+
+            </div>
+
+
+
+        </div>
+        <div id="formacion" style="display: none;">
+            <div class="row">
+                <div class="col-3">2021- Diplomatura Asistentes en Calidad con orientación en Metrología (INCALIN,
+                    Universidad Nacional de
+                    Gral. San Martín - INTI)</div>
+                <div class="col-3">Junio 2020- Understanding and Evaluating Measurement Uncertainty (NPL Nation Physical
+                    Laboratory, NPL
+                    Training e-learning)</div>
+                <div class="col-3">Junio 2020- Understanding Uncertainty Budgets (NPL Nation Physical Laboratory, NPL
+                    Training e-learning)</div>
+                <div class="col-3">Junio 2020- Introduction to Measurement Uncertainty (NPL Nation Physical Laboratory,
+                    NPL Training
+                    e-learning)</div>
+            </div>
+            <div class="row">
+                <div class="col-3">Junio 2020- Introduction to Measurement and Metrology (NPL Nation Physical
+                    Laboratory,
+                    NPL Training
+                    e-learning)</div>
+                <div class="col-3">2016- Cursado Diplomatura en Materiales de la Industria Nuclear (Instituto de
+                    tecnología Prof. Jorge A
+                    Sabato - CNEA)</div>
+                <div class="col-3">Marzo 2016- Seminario sobre metrología y técnicas de medición para “Temperatura y
+                    Humedad” (EXACTIA
+                    Soluciones, Dictado por Ing. Ezequiel Spak)</div>
+                <div class="col-3">Septiembre 2015- Evaluación de la Incertidumbre de las Mediciones (Instituto de
+                    tecnología Prof. Jorge A
+                    Sabato - CNEA, Dictado por Lic. Pablo Salatino, Lic. Diego Martin)</div>
+            </div>
+            <div class="row">
+                <div class="col-3">Septiembre 2015- Interlaboratorios-Informes de Ensayos de Aptitud (Instituto de
+                    tecnología Prof. Jorge A
+                    Sabato - CNEA, Dictado por el Lic. Diego Martin)</div>
+                <div class="col-3">Diciembre 2013- Diplomatura en Sistemas De Gestión ISO 19011, ISO 14001, OHSAS 18001,
+                    ISO 9001, (COPIME)</div>
+                <div class="col-3">Agosto 2013- Introducción al diseño de Base de Datos (A.U.B.A. Club de
+                    Programadores)
+                </div>
+                <div class="col-3">Octubre 2012- MS-Excel 2010 Nivel II (EXO Training center)</div>
+            </div>
+            <div class="row">
+                <div class="col-3">Octubre 2012- MS-Access 2010 Nivel II (EXO Training center)</div>
+                <div class="col-3">Septiembre 2012- MS-Access 2010 Nivel I (EXO Training center)</div>
+                <div class="col-3">Junio 2011- Acreditación de proveedores de ensayos de aptitud ISO-IEC 17043-2010
+                    (Instituto Dan Beninson -
+                    CNEA)</div>
+                <div class="col-3">Junio 2011- Cálculo de Incertidumbre de Medición - Práctica (MITUTOYO Argentina)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">Mayo 2011- Cálculo de Incertidumbre de Medición - Teoría (MITUTOYO Argentina)
+                </div>
+                <div class="col-3">Abril 2011- Mantenimiento y calibración de instrumentos convencionales analógicos
+                    y
+                    digitales (MITUTOYO
+                    Argentina)</div>
+                <div class="col-3">Abril 2011- Conceptos Básicos de Seguridad e Higiene (Instituto Dan Beninson -
+                    CNEA)
+                </div>
+                <div class="col-3">Octubre 2010- Formación de auditores internos ISO 19.011 (Instituto de tecnología
+                    Prof.
+                    Jorge A Sabato -
+                    CNEA, Dictado por el Lic. Antonio Russo)</div>
+            </div>
+            <div class="row">
+                <div class="col-3">Septiembre 2010- Gestión de Calidad en Laboratorios, IRAM 301 (ISO/IEC 17025)
+                    (Instituto
+                    Dan Beninson -
+                    CNEA, Dictado por la Lic. Sara Resnizky, Mario Carballido)</div>
+                <div class="col-3">Octubre 2007- Análisis de causa raíz (dictado en CES S.A. por personal de CNEA
+                    Ing.
+                    Hernán
+                    Garonis, Ing
+                    Tulio Palacios y Lic Antonio Russo)</div>
+                <div class="col-3">Junio 2006- Estadística y cálculo de incertidumbre (Instituto de tecnología Prof.
+                    Jorge
+                    A
+                    Sabato - CNEA,
+                    dictado por la Lic. Alba Zaretzky)</div>
+                <div class="col-3">Abril 2006- Incertidumbre y Calidad de las Mediciones (SENSPLUS, dictado por el
+                    Lic.
+                    Fernando Kornblit)</div>
+            </div>
+            <div class="row">
+                <div class="col-3">Julio 2003- Curso de lengua y cultura italiana (Universita´ degli studi della
+                    Basilicata -
+                    Italia)</div>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+
+
+        </div>
+        <div id="idioma" style="display: none;">
+            <div class="row">
+                <div class="col-6" id="ingles">
+                    <b><center>Inglés</center></b>
+                    <p>Instituto Cambridge de Cultura Inglesa</p>
+                    <p>Nivel alto</p>
+                </div>
+                <div class="col-6" id="italiano">
+                    <b><center>Italiano</center></b>
+                    <p>Federacion de Asociaciones de Basilicata en Argentina</p>
+                    <p>Nivel bajo</p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+    <footer id="footer">
+        Actualizado 26/01/2023
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: white;
+    color: black;
+}
+
+.oscuro {
+    background-color: black;
+    color: white;
+  }
+
+footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    display: none;
+    font-size: x-small;
+}
+
+.col-1 {
+    width: 8.33%;
+}
+
+.col-2 {
+    width: 16.66%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33%;
+}
+
+.col-5 {
+    width: 41.66%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33%;
+}
+
+.col-8 {
+    width: 66.66%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33%;
+}
+
+.col-11 {
+    width: 91.66%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-20 {
+    width: 20%;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.row {
+    margin-bottom: 15px;
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+header {
+    border-radius: 5px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+header nav {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+button {
+    width: 100px;
+}
+
+#modo {
+    width: auto;
+    border-radius: 20px;
+    border: 1px;
+}
+
+#personal {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+#experiencia {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+p {
+    text-align: justify;
+}
+
+
+#academica {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+#formacion {
+    width: 100%;
+    margin-bottom: 10px;
+    text-align: justify;
+}
+
+#idioma {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin: 0px;
+    color: green;
+}
+
+h3 {
+    text-align: center;
+    margin: 0px;
+    font-size: 1em;
+    color: lightgreen;
+}
+
+h4 {
+    text-align: center;
+}
+
+h5 {
+    text-align: center;
+}
+
+h6 {
+    text-align: center;
+}
+
+#cnea,
+#oaa,
+#ces {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.oscuro #cnea, #oaa, #ces {
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+
+
+
+#secundario p,
+#universidad p,
+#ingles p,
+#italiano p {
+    text-align: center;
+}
+
+
+
+/*PARA PANTALLAS DE HASTA 600px */
+
+@media only screen and (max-width: 600px) {
+
+    [class*="col-"] {
+        width: 100%;
+    }
+
+    button {
+        width: 100%;
+    }
+
+    header nav {
+        margin-top: 20px;
+        display: block;
+    }
+
+    #modo {
+        width: auto;
+        border-radius: 20px;
+        border: 1px;
+        float: right;
+    }
+
+}
