@@ -3,14 +3,24 @@
 }
 
 body {
-    background-color: white;
+    background-color: mintcream;
     color: black;
 }
 
 .oscuro {
-    background-color: black;
+    background-color: #272727;
     color: white;
+}
+
+.oscuro #cnea, .oscuro #oaa, .oscuro #ces {
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: darkslategrey;
   }
+
+  .oscuro .icon{
+    filter: invert(100%);
+}
 
 footer {
     position: relative;
@@ -177,12 +187,9 @@ h6 {
 #ces {
     border: 1px solid black;
     border-radius: 10px;
+    background-color: lightcyan;
 }
 
-.oscuro #cnea, #oaa, #ces {
-    border: 1px solid white;
-    border-radius: 10px;
-  }
 
 
 
@@ -193,7 +200,20 @@ h6 {
     text-align: center;
 }
 
+#gerace {
+    height: 75px;
+    width: auto;
+    border-radius: 75px;
+    float: left;
+    margin-bottom: 15px;
+}
 
+.imagen{
+    margin: 5px;
+    height: 100px;
+    float: left;
+    border-radius: 5px;
+}
 
 /*PARA PANTALLAS DE HASTA 600px */
 
