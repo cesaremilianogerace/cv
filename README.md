@@ -1,7 +1,7 @@
-# Repositorio semilla: _curriculum vitae_ en Jekyll 🌱
+26/01/2023
+primera version
 
-¡Bienvenida/o! En este repositorio encontrarás una plantilla (de las infinitas posibles) para crear un _curriculum vitae_, hoja de vida o resumen de historia profesional utilizando [Jekyll](https://jekyllrb.com/).
-
-Para crear un proyecto siguiendo esta plantilla, lo único que tenés que hacer es clickear en el botón que dice `Use this template`.
-
-:information_source: Este proyecto es simplemente una simplificación de [modern-resume-theme](https://github.com/sproogen/modern-resume-theme), creado por [James Grant](https://github.com/sproogen). Pueden encontrarse más instrucciones de uso en el repositorio original.
+08/03/2023
+se modifica la informacion sensible porque el repositorio es público.
+se agregan imagenes, iconos, colores (soy daltonico, no sé si será agradable a la vista)
+se corrige el css para que en el modo oscuro se puedan ver los bordes blancos en "experiencia profesional".
